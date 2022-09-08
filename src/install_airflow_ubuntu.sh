@@ -1,5 +1,12 @@
 #!/bin/bash
 
+##########################################
+# The script is based on details in resources
+# Install Docker Engine on Ubuntu (https://docs.docker.com/engine/install/ubuntu/)
+# and
+# Running Airflow in Docker (https://airflow.apache.org/docs/apache-airflow/stable/start/docker.html)
+##########################################
+
 # Uninstall old version of dockers
 sudo apt-get remove docker docker-engine docker.io containerd runc
 
